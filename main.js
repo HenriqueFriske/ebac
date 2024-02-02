@@ -14,11 +14,11 @@ function validar() {
 
 
     if (valorB > valorA){
-        alert(`O valor B = `+ valorB +` é maior que o valor A = ` + valorA);
+        alert(`Valido: O valor B = `+ valorB +` é maior que o valor A = ` + valorA);
     }else if (valorA > valorB){
-        alert(`O valor A = `+ valorA +` é maior que o valor B = ` + valorB);
+        alert(`invalido: O valor A = `+ valorA +` é maior que o valor B = ` + valorB);
     }else{
-        alert("Os valores são iguais");
+        alert("Invalido: Os valores são iguais");
     }
 }
 
